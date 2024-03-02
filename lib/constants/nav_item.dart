@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 
-List<String> item = ["Home", "Skill", "Project", "Blog", "Contct"];
+List<String> item = [
+  "Home",
+  "About me",
+  "Skill",
+  "Project",
+  "Certificates",
+  "Contct"
+];
 List<IconData> nav_icon = [
   Icons.home,
+  Icons.person,
   Icons.android_outlined,
   Icons.back_hand,
-  Icons.web,
+  Icons.credit_card,
   Icons.quick_contacts_mail
 ];

@@ -8,12 +8,20 @@ class HeaderDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF131933),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xFF131933),
+            Color.fromARGB(255, 7, 11, 28),
+          ],
+        ),
+      ),
       height: 60,
       width: double.maxFinite,
       child: Row(
         children: [
-         
           Sitelogo(onTap: () {}),
           Spacer(),
           for (int i = 0; i < item.length; i++)
