@@ -70,11 +70,15 @@ class _HomePageState extends State<HomePage> {
                                 Color(0xff28b67e), // Color when pressed
                           ),
                           onPressed: () {},
-                          child: Text(
-                            "Get In Touch",
-                            style: TextStyle(
-                                color: Color(0xFF131933),
-                                fontWeight: FontWeight.w800),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              "Get In Touch",
+                              style: TextStyle(
+                                  color: Color(0xFF131933),
+                                  fontWeight: FontWeight.w800,
+                                  fontSize: 20),
+                            ),
                           ),
                         )
                       ],
@@ -301,7 +305,677 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-            )
+            ),
+            Container(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text(
+                    "Skills",
+                    style: TextStyle(
+                        fontSize: 40,
+                        color: Color(0xff28b67e),
+                        fontWeight: FontWeight.w700),
+                  ),
+                  Container(
+                    width: 700,
+                    height: 250,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Languages and Frameworks",
+                          style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white54),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/dart.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/flutter.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/git.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/css.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/html.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/js.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/ts.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/python.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/java.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/node.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/numpy.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/firebase.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/anaconda.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    width: 700,
+                    height: 150,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "IDEs and Softwares",
+                          style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white54),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/git.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/vscode.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/firebase.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage(
+                                          'assests/visual_studio.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/firebase.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Card(
+                              shadowColor: Color(0xFF131933),
+                              elevation: 5,
+                              color: Color.fromARGB(255, 7, 11, 28),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Image(
+                                      image: AssetImage('assests/anaconda.png'),
+                                      height: 70,
+                                      width: 70,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                  )
+                ],
+              ),
+              height: 650,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF131933),
+                    Color.fromARGB(255, 7, 11, 28),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text(
+                    "Projects",
+                    style: TextStyle(
+                        fontSize: 40,
+                        color: Color(0xff28b67e),
+                        fontWeight: FontWeight.w700),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Project 1",
+                                style: TextStyle(
+                                    fontSize: 30,
+                                    color: Color(0xff28b67e),
+                                    fontWeight: FontWeight.w700),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                " Healthcare App UI Design",
+                                style: TextStyle(
+                                    fontSize: 25,
+                                    color: const Color.fromARGB(
+                                        255, 243, 243, 243),
+                                    fontWeight: FontWeight.w500),
+                              ),
+                              SizedBox(
+                                height: 40,
+                              ),
+                              Container(
+                                width: 400,
+                                height: 400,
+                                child: Text(
+                                  "Explore my Java-based healthcare app on Android, boasting robust Firebase authentication for secure login/signup. Navigate doctor profiles effortlessly, scheduling appointments for a seamless patient journey. With optimized Firebase integration, enjoy real-time data sync and reliability. Embracing user convenience, the app offers intuitive UI design and smooth navigation, enhancing engagement. Witness the seamless synergy of Java, Android, and Firebase in delivering a tailored healthcare solution. Dive into my portfolio for more.",
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.white70),
+                                ),
+                              )
+                            ]),
+                      ),
+                      Card(
+                        shadowColor: Color(0xff28b67e),
+                        elevation: 5,
+                        color: Color.fromARGB(255, 7, 11, 28),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Image(
+                                image: AssetImage('assests/ts.png'),
+                                height: 400,
+                                width: 400,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              height: 600,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF131933),
+                    Color.fromARGB(255, 7, 11, 28),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Card(
+                        shadowColor: Color(0xff28b67e),
+                        elevation: 5,
+                        color: Color.fromARGB(255, 7, 11, 28),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Image(
+                                image: AssetImage('assests/ts.png'),
+                                height: 400,
+                                width: 400,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Project 2",
+                                style: TextStyle(
+                                    fontSize: 30,
+                                    color: Color(0xff28b67e),
+                                    fontWeight: FontWeight.w700),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                " QuizUp App UI Design",
+                                style: TextStyle(
+                                    fontSize: 25,
+                                    color: const Color.fromARGB(
+                                        255, 243, 243, 243),
+                                    fontWeight: FontWeight.w500),
+                              ),
+                              SizedBox(
+                                height: 40,
+                              ),
+                              Container(
+                                width: 400,
+                                height: 400,
+                                child: Text(
+                                  "Dive into an engaging world of knowledge with my Quiz app 'QuizUP' designed to captivate students and foster learning. Experience an attractive interface reminiscent of games, enticing users to explore and expand their knowledge. With a focus on intuitive design, users can navigate seamlessly through a variety of quizzes, enhancing their understanding in a fun and interactive way. Discover a new dimension of learning and enjoyment as you delve into topics with ease. Download now and embark on a journey of discovery!",
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.white70),
+                                ),
+                              )
+                            ]),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              height: 600,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF131933),
+                    Color.fromARGB(255, 7, 11, 28),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Project 3",
+                                style: TextStyle(
+                                    fontSize: 30,
+                                    color: Color(0xff28b67e),
+                                    fontWeight: FontWeight.w700),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                " Islamic Learning App UI Design (In Progress)",
+                                style: TextStyle(
+                                    fontSize: 25,
+                                    color: const Color.fromARGB(
+                                        255, 243, 243, 243),
+                                    fontWeight: FontWeight.w500),
+                              ),
+                              SizedBox(
+                                height: 40,
+                              ),
+                              Container(
+                                width: 400,
+                                height: 400,
+                                child: Text(
+                                  "Embark on a transformative journey of Islamic learning with our Flutter-powered app. Immerse yourself in a rich tapestry of knowledge, conveniently accessible at your fingertips. Explore diverse topics of Islamic teachings, from Quranic studies to Hadith, with interactive modules designed to engage and enlighten learners of all levels. With user-friendly navigation and immersive content, our app offers a seamless experience for deepening your understanding of Islam. Embrace the convenience of modern technology as you embark on a path of spiritual growth and enlightenment.",
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w300,
+                                      color: Colors.white70),
+                                ),
+                              )
+                            ]),
+                      ),
+                      Card(
+                        shadowColor: Color(0xff28b67e),
+                        elevation: 5,
+                        color: Color.fromARGB(255, 7, 11, 28),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Image(
+                                image: AssetImage('assests/ts.png'),
+                                height: 400,
+                                width: 400,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              height: 600,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF131933),
+                    Color.fromARGB(255, 7, 11, 28),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              child: Column(
+                children: [
+                  Text(
+                    "Certificates",
+                    style: TextStyle(
+                        fontSize: 40,
+                        color: Color(0xff28b67e),
+                        fontWeight: FontWeight.w700),
+                  ),
+                ],
+              ),
+              height: 600,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF131933),
+                    Color.fromARGB(255, 7, 11, 28),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       );
